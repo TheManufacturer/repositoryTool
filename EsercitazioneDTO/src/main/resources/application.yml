@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/exerciseDTO
+    username: root
+    password: Sivagio-9-9
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database: mysql
+    show_sql: true
+    hibernate:
+      ddl-auto: update
